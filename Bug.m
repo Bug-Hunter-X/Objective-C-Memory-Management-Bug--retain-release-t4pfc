@@ -1,0 +1,1 @@
+In Objective-C, a subtle bug can arise from the misuse of `retain` and `release` in manual memory management, particularly when dealing with custom classes.  Forgetting to release an object after it is no longer needed can lead to memory leaks.  Conversely, releasing an object that has already been released (double release) results in a crash.
